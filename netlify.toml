@@ -1,0 +1,13 @@
+# Configuración de despliegue en Netlify.
+# El sitio estático vive en portafolio/, pero css/ y js/ están un
+# nivel arriba (ver rutas relativas ../css, ../js en cada .html), así
+# que se publica el repo completo tal cual y se redirige la raíz del
+# dominio a portafolio/index.html.
+
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/portafolio/index.html"
+  status = 200
