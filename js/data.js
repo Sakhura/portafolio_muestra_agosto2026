@@ -16,7 +16,7 @@ const PROYECTOS = [
   {
     id: 1,
     nombre: "SIGVET — Clínica Veterinaria",
-    ruta: "/proyectos/sigvet",
+    ruta: "/sigvet",
     descripcion:
       "Sistema de gestión de fichas clínicas, agenda de horas y control de vacunas para clínicas veterinarias pequeñas.",
     stack: ["PHP", "MySQL", "Bootstrap"],
@@ -26,7 +26,7 @@ const PROYECTOS = [
   {
     id: 2,
     nombre: "RiskGrader — Corrección Automatizada",
-    ruta: "/proyectos/riskgrader",
+    ruta: "/riskgrader",
     descripcion:
       "Pipeline que evalúa entregas de estudiantes contra una rúbrica y genera reportes Word individuales con retroalimentación.",
     stack: ["Python", "Docx", "IA"],
@@ -36,7 +36,7 @@ const PROYECTOS = [
   {
     id: 3,
     nombre: "ConsorcioCore — Módulo Bancario",
-    ruta: "/proyectos/consorciocore",
+    ruta: "/consorciocore",
     descripcion:
       "Optimización de procedimientos almacenados para un sistema de transacciones financieras: paginación, índices y filtros sargables.",
     stack: ["SQL Server", "T-SQL", ".NET"],
@@ -46,7 +46,7 @@ const PROYECTOS = [
   {
     id: 4,
     nombre: "EduTrack — Panel Docente",
-    ruta: "/proyectos/edutrack",
+    ruta: "/edutrack",
     descripcion:
       "Panel para seguimiento de más de 1.000 estudiantes en distintas instituciones, con métricas de avance por curso.",
     stack: ["Java", "Spring Boot", "JSP"],
